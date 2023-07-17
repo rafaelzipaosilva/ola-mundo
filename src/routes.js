@@ -3,9 +3,8 @@ import Inicio from "./paginas/Inicio";
 import SobreMim from "./paginas/SobreMim";
 import Menu from "./componentes/Menu";
 
-function App() {
+function AppRoutes() {
   return (
-
     //instalar o React Router 6 para utilizar os componentes: BrowserRouver>Routes>Route
     <BrowserRouter>
       <Menu />
@@ -18,4 +17,4 @@ function App() {
   )
 }
 
-export default App;
+export default AppRoutes;
