@@ -10,7 +10,7 @@ export default function SobreMim() {
 
 			<img
 				src={fotoSobreMim}
-				alt="Foto sorrindo"
+				alt="Foto do Rafael segurando o machado do Thor"
 				className={styles.fotoSobreMim}
 			/>
 
