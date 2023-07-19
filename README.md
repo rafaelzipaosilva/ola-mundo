@@ -15,3 +15,18 @@ https://www.figma.com/file/AncF2JgEqX0TtRlU26HiYR/Ol%C3%A1%2C-Mundo!---Projeto-R
         <Route path="*" element={<div>Página não encontrada</div>} />
     </Routes>
 </BrowserRouter>
+
+
+# Rotas aninhadas
+
+    Na rota "/", a estrutura a ser renderizada é:
+    
+    <PaginaPadrão>
+    <Inicio />
+    </PaginaPadrão>
+
+    Na rota "/sobremim", a estrutura a ser renderizada é:
+    
+    <PaginaPadrão>
+    <SobreMim />
+    </PaginaPadrão>

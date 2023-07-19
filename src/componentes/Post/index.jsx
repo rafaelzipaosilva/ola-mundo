@@ -10,7 +10,7 @@ export default function Post( { post}) {
         />
         <h2 className={styles.titulo}>{post.titulo}</h2>
 
-        <buttton className={styles.botaoLer}>Ler</buttton>
+        <button className={styles.botaoLer}>Ler</button>
     </div>
   )
 }
